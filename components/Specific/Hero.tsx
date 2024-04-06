@@ -14,7 +14,7 @@ function Hero() {
     >
       <div className="text-justify">
         <div className="text-2xl mb-4 pt-8 lg:text-4xl">
-          Hi, I'm Ingo
+          Hi, I{"'"}m Ingo
           <div>
             a{" "}
             <span className="text-primary">
@@ -43,7 +43,7 @@ function Hero() {
             </span>
           </div>
         </div>
-        I'm a software developer and since 4+ years{" "}
+        I{"'"}m a software developer and since 4+ years{" "}
         <span className="font-bold text-primary">founder and CTO</span> of MARA,
         a <span className="font-bold text-primary">NLP startup </span> to
         revolutionize customer feedback in the hotel industry. Building two
@@ -60,10 +60,9 @@ function Hero() {
         <span className="font-bold text-primary">McKinsey & Company</span>,
         developing ML models across diverse industries after my studies of
         Mathematics and Ecomomics.
-        <br />
-        I'm passionate about building software that is elegant, simple, and
-        performant. I'm always interested in technical discussions and knowledge
-        exchange, so feel free to reach out to me.
+        <br />I{"'"}m passionate about building software that is elegant,
+        simple, and performant. I{"'"}m always interested in technical
+        discussions and knowledge exchange, so feel free to reach out to me.
       </div>
       <div className="h-[500px]">
         <Spline scene="https://prod.spline.design/6dEhA4rlX2dMSyRW/scene.splinecode" />

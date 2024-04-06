@@ -20,7 +20,7 @@ function Navbar() {
             <div>
               <h1 className="text-xl font-bold">Dr. Ingo Lange</h1>
               <h2 className="text-md">
-                Let's <span className="text-primary font-bold">ship</span>{" "}
+                Let{"'"}s <span className="text-primary font-bold">ship</span>{" "}
                 together
               </h2>
             </div>
