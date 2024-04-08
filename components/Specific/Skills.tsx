@@ -7,42 +7,42 @@ import { twMerge } from "tailwind-merge";
 const skills = [
   {
     name: "Python",
-    text: "Python is my one of my two primary language for backend work, such as APIs, ETL, and scraping, particularly in the realm of Natural Language Processing (NLP). I`ve built the current MARA product using Python APIs and devised custom language models within Python.",
+    text: "Python is one of my two main languages for backend work such as APIs, ETL and scraping. The complete backend of MARA consists of Python FastAPIs called by our Frontends as well as by platform customers who integrate our language models via APIs into their platforms. Beyond that, Python is my primary language for NLP (MARA, Ph.D. etc.).",
     logo: "/logos/skills/PythonLogo.png",
   },
   {
     name: "TS",
-    text: "The second language for backend work whereby I mostly develop NestJS APIs. I really like that I can use TypeScript for both front-end and back-end development and combine both in a monorepo.",
+    text: "TS is the second language for back-end work, where I mainly develop NestJS APIs. The main advantage for me is that I can use TypeScript for both front-end and back-end development. Using a monorepo, I usually use turborepo, I can have everything in one repository and deploy it separately.",
     logo: "/logos/skills/TSLogo.png",
   },
   {
     name: "R",
-    text: "During my parallel studies in Mathematics and Economics, my carrer as a Data Scientist started using R focusing on non-parametric statistics, time series analysis and optimization. During my McKinsey times I continued using it for different clients and part of the very first MARA product were build in it. I try to still use it from time to time to keep my skills sharp.",
+    text: "During my parallel studies in mathematics and economics, I started my career as a data scientist with R, focusing on non-parametric statistics, time series analysis and optimization. I continued to use it for various clients during my time at McKinsey, and part of the very first MARA product was developed with it. During the launch of MARA, I did a lot with R using custom packages and an RShiny frontend. I now use it less, but still try to use it from time to time to keep my skills up to date.",
     logo: "/logos/skills/RLogo.png",
   },
   {
     name: "React",
-    text: "React is my main framework when it comes to developing web applications. Developing our MARA SaaS application used by hundreds of customers on a daily basis, I gained substantial experience with React and Frontend Development in general.",
+    text: "React is my main framework when it comes to web application development. Through the development of our MARA SaaS application, which is used by hundreds of paying customers every day, I have gained extensive experience with React and frontend development in SaaS services in general. My standard approach is Next.js and Tailwind for web frontends.",
     logo: "/logos/skills/ReactLogo.png",
   },
   {
     name: "React Native",
-    text: "With WPF Coaching I developed a mobile application that is live in the App Store (https://apps.apple.com/de/app/wpf-coaching/id6477957146?l=en-GB) and Google Play Store (https://play.google.com/store/apps/details?id=com.ofm.coachingcentral). It is an community app with a focus on AI and automation in the backend.",
+    text: "Using React Native and Expo I created WPF Coaching, which is available in the App Store (https://apps.apple.com/de/app/wpf-coaching/id6477957146?l=en-GB) and Google Play Store (https://play.google.com/store/apps/details?id=com.ofm.coachingcentral). It is a community app with a focus on AI and automation in the backend. React Native is perfect for me, as the stack with NativeWind is very similar to Web, where I have significantly more experience. ",
     logo: "/logos/skills/ReactNativeLogo.png",
   },
   {
     name: "SQL",
-    text: "As a data science professional, writing SQL queries comes naturally to me. I`ve also honed my skills in complex query optimization, data structure development, and database setup. PostgreSQL is my database of choice, but I`ve also employed MySQL, Athena, and BigQuery over time.",
+    text: "With a background as a Data Scientist, I have a lot of experience in SQL analyses. During MARA I honed my skills in optimizing complex queries, developing data structures and setting up databases. PostgreSQL is my preferred database, but I have also used MySQL, Athena and BigQuery over the years. For my applications, I use Prisma (TS) or alambic (Python) for migration management, among other things.",
     logo: "/logos/skills/PostgresLogo.png",
   },
   {
     name: "NoSQL",
-    text: "I acknowledge the performance benefits of NoSQL databases for storing large document collections. With MARA, I`ve developed substantial experience with DynamoDB, from optimizing data structures to introducing and enhancing indexes.",
+    text: "With MARA, I gained extensive experience with DynamoDB, as we used it for faster queries for reviews in particular. I set up the database back then and worked a lot with it at the beginning, from optimizing data structures to introducing and improving indexes. In summary, I am familiar with NoSQL and in particular how the data should be structured, but I use SQL for most things.",
     logo: "/logos/skills/DynamoLogo.png",
   },
   {
     name: "Docker",
-    text: "My mantra - Everything, no matter how small, should be dockerized. I`ve deployed many services using Docker and have extensively explored how to streamline image building, secret handling, and size reduction, particularly for backend services.",
+    text: "I try to dockerize all my services in the backend because it's easier to switch cloud providers in the long term and you don't have the "it works on my machine" problem. Especially when deploying very large custom language models, which I wrote, I have dealt a lot with how to optimize the images. Since my go to approach in the backend is to dockerize the FastAPI or NestJS API and then deploy it, I have my workflow for CI/CD and setting secrets for the different stages.",
     logo: "/logos/skills/DockerLogo.png",
   },
   {
