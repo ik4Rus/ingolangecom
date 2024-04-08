@@ -114,18 +114,25 @@ function Skills() {
           ))}
         </div>
       </div>
-      <div className="text-justify">
-        My toolkit encompasses a blend of front-end and back-end languages,
-        fortified with a robust understanding of cloud providers, serverless
-        infrastructures, and both SQL and NoSQL databases. While a selection of
-        my favored technologies can be found on the left, over the years a
-        worked with a wide range of different tools and technologies. An
-        detailed overview of my skills can be found on the skills page or in my
-        CV. For example: <br />
-        <span className="text-primary font-bold">
-          {skills[activeSkillIndex].name}
-        </span>
-        : {skills[activeSkillIndex].text}
+      <div>
+        <h2 className="text-2xl mb-4 lg:text-4xl">
+          My <span className="text-primary">skills</span>
+        </h2>
+        <p className="text-justify">
+          My toolkit encompasses a blend of front-end and back-end languages,
+          fortified with a robust understanding of cloud providers, serverless
+          infrastructures, and both SQL and NoSQL databases. While a selection
+          of my favored technologies can be found on the left, over the years a
+          worked with a wide range of different tools and technologies. An
+          detailed overview of my skills can be found on the skills page or in
+          my CV. For example:{" "}
+        </p>
+        <p className="pt-4">
+          <span className="text-primary font-bold">
+            {skills[activeSkillIndex].name}
+          </span>
+          : {skills[activeSkillIndex].text}
+        </p>
       </div>
     </motion.div>
   );
