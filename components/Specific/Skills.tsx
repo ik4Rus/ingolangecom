@@ -42,7 +42,7 @@ const skills = [
   },
   {
     name: "Docker",
-    text: "I try to dockerize all my services in the backend because it's easier to switch cloud providers in the long term and you don't have the "it works on my machine" problem. Especially when deploying very large custom language models, which I wrote, I have dealt a lot with how to optimize the images. Since my go to approach in the backend is to dockerize the FastAPI or NestJS API and then deploy it, I have my workflow for CI/CD and setting secrets for the different stages.",
+    text: "I try to dockerize all my services in the backend because it's easier to switch cloud providers in the long term and you don't have the `it works on my machine` problem. Especially when deploying very large custom language models, which I wrote, I have dealt a lot with how to optimize the images. Since my go to approach in the backend is to dockerize the FastAPI or NestJS API and then deploy it, I have my workflow for CI/CD and setting secrets for the different stages.",
     logo: "/logos/skills/DockerLogo.png",
   },
   {
@@ -128,9 +128,6 @@ function Skills() {
         : {skills[activeSkillIndex].text}
       </div>
     </motion.div>
-    // <div className="w-full bg-opacity-90 bg-black grid grid-cols-2 mt-12 p-8 rounded-lg">
-
-    // </div>
   );
 }
 
